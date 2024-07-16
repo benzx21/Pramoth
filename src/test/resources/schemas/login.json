@@ -1,0 +1,431 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "MESSAGE_TYPE": {
+      "type": "string"
+    },
+    "SESSION_AUTH_TOKEN": {
+      "type": "string"
+    },
+    "REFRESH_AUTH_TOKEN": {
+      "type": "string"
+    },
+    "SESSION_ID": {
+      "type": "string"
+    },
+    "USER_NAME": {
+      "type": "string"
+    },
+    "UPDATE_QUEUE": {
+      "type": "string"
+    },
+    "ZERO_MQ_PROXY_MODE_ENABLED": {
+      "type": "boolean"
+    },
+    "ZERO_MQ_PROXY_INBOUND_PORT": {
+      "type": "integer"
+    },
+    "ZERO_MQ_PROXY_OUTBOUND_PORT": {
+      "type": "integer"
+    },
+    "USER": {
+      "type": "null"
+    },
+    "DETAILS": {
+      "type": "object",
+      "properties": {
+        "SYSTEM": {
+          "type": "object",
+          "properties": {
+            "DATE": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "DATE"
+          ]
+        },
+        "HEARTBEAT_INTERVAL_SECS": {
+          "type": "integer"
+        },
+        "FAILED_LOGIN_ATTEMPTS": {
+          "type": "integer"
+        },
+        "REJECTED_LOGIN_ATTEMPTS": {
+          "type": "integer"
+        },
+        "LAST_LOGIN_DATETIME": {
+          "type": "integer"
+        },
+        "DAYS_TO_PASSWORD_EXPIRY": {
+          "type": "integer"
+        },
+        "PRODUCT": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "NAME": {
+                  "type": "string"
+                },
+                "VERSION": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "NAME",
+                "VERSION"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "NAME": {
+                  "type": "string"
+                },
+                "VERSION": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "NAME",
+                "VERSION"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "NAME": {
+                  "type": "string"
+                },
+                "VERSION": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "NAME",
+                "VERSION"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "NAME": {
+                  "type": "string"
+                },
+                "VERSION": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "NAME",
+                "VERSION"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "SYSTEM",
+        "HEARTBEAT_INTERVAL_SECS",
+        "FAILED_LOGIN_ATTEMPTS",
+        "REJECTED_LOGIN_ATTEMPTS",
+        "LAST_LOGIN_DATETIME",
+        "DAYS_TO_PASSWORD_EXPIRY",
+        "PRODUCT"
+      ]
+    },
+    "PERMISSION": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "PROFILE": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "SOURCE_REF": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "MESSAGE_TYPE",
+    "SESSION_AUTH_TOKEN",
+    "REFRESH_AUTH_TOKEN",
+    "SESSION_ID",
+    "USER_NAME",
+    "UPDATE_QUEUE",
+    "ZERO_MQ_PROXY_MODE_ENABLED",
+    "ZERO_MQ_PROXY_INBOUND_PORT",
+    "ZERO_MQ_PROXY_OUTBOUND_PORT",
+    "USER",
+    "DETAILS",
+    "PERMISSION",
+    "PROFILE",
+    "SOURCE_REF"
+  ]
+}
