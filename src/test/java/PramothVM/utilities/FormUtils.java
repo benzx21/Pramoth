@@ -1,4 +1,4 @@
-package custx.utilities;
+package PramothVM.utilities;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
@@ -11,8 +11,9 @@ import java.time.format.DateTimeFormatterBuilder;
 import java.time.format.FormatStyle;
 import java.util.*;
 
-import static custx.constants.Utility.DATE_FORMAT_YYYYMMDD;
-import static custx.constants.Utility.LOAD_TIME_ELEMENT;
+import static PramothVM.constants.Utility.DATE_FORMAT_YYYYMMDD;
+import static PramothVM.constants.Utility.LOAD_TIME_ELEMENT;
+
 
 public class FormUtils {
     public static final String FORM_INPUT_NAME = "Name";

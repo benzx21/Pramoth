@@ -1,6 +1,7 @@
-package custx.utilities;
+package PramothVM.utilities;
 
-import custx.steps.FeatureContext;
+
+import PramothVM.steps.FeatureContext;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.FileInputStream;
@@ -8,7 +9,8 @@ import java.io.IOException;
 import java.util.Optional;
 import java.util.Properties;
 
-import static custx.constants.Utility.CONTEXT_PARAM_HOST;
+import static PramothVM.constants.Utility.CONTEXT_PARAM_HOST;
+
 
 @Slf4j
 public class ConfigReader {

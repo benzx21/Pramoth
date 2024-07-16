@@ -1,4 +1,4 @@
-package custx.constants;
+package PramothVM.constants;
 
 public final class AppMessages {
 

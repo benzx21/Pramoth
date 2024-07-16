@@ -1,10 +1,11 @@
-package custx.steps;
+package PramothVM.steps;
 
+import PramothVM.utilities.GridUtils;
+import PramothVM.utilities.PageUtils;
+import PramothVM.utilities.driver.PlaywrightDriver;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
-import custx.utilities.GridUtils;
-import custx.utilities.PageUtils;
-import custx.utilities.driver.PlaywrightDriver;
+
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
@@ -13,7 +14,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import static custx.constants.Utility.*;
+import static PramothVM.constants.Utility.*;
+
 
 public class GridStep {
     private static final String[] CONTEXT_PARAM_NAMES = new String[]{

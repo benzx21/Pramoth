@@ -1,6 +1,6 @@
-package custx.utilities;
+package PramothVM.utilities;
 
-import custx.constants.Utility;
+import PramothVM.constants.Utility;
 import org.apache.commons.lang3.StringUtils;
 
 import java.time.DayOfWeek;
@@ -9,7 +9,8 @@ import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 
-import static custx.constants.Utility.*;
+import static PramothVM.constants.Utility.*;
+
 
 public final class FormatUtils {
 

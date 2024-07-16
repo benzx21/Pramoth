@@ -1,12 +1,14 @@
-package custx.utilities.tests;
+package PramothVM.utilities.tests;
 
-import custx.steps.FeatureContext;
-import custx.utilities.FormatUtils;
-import custx.utilities.SwiftUtils;
+
+import PramothVM.steps.FeatureContext;
+import PramothVM.utilities.FormatUtils;
+import PramothVM.utilities.SwiftUtils;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static custx.constants.Utility.CONTEXT_PARAM_CUSTODIAN_TRADE_REF;
+import static PramothVM.constants.Utility.CONTEXT_PARAM_CUSTODIAN_TRADE_REF;
+
 
 public class TestSwiftUtils {
 

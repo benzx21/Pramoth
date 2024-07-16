@@ -1,13 +1,15 @@
-package custx.utilities.api;
+package PramothVM.utilities.api;
 
+import PramothVM.utilities.api.pojo.BasePojo;
+import PramothVM.utilities.api.pojo.Details;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
-import custx.utilities.api.pojo.BasePojo;
-import custx.utilities.api.pojo.Details;
+
 import io.restassured.http.ContentType;
 
-import static custx.utilities.Credentials.userCredentials;
+
+import static PramothVM.utilities.Credentials.userCredentials;
 import static io.restassured.RestAssured.given;
 
 public class GenerateToken {

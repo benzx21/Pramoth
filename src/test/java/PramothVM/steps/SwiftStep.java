@@ -1,16 +1,18 @@
-package custx.steps;
+package PramothVM.steps;
 
+import PramothVM.utilities.PageUtils;
+import PramothVM.utilities.RestUtils;
+import PramothVM.utilities.SwiftUtils;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import custx.utilities.PageUtils;
-import custx.utilities.RestUtils;
-import custx.utilities.SwiftUtils;
+
 import io.cucumber.java.en.When;
 import org.assertj.core.api.Assertions;
 
 import java.util.UUID;
 
-import static custx.constants.Utility.*;
+import static PramothVM.constants.Utility.*;
+
 
 public class SwiftStep {
 

@@ -1,4 +1,4 @@
-package custx.utilities.allure.report;
+package PramothVM.utilities.allure.report;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;

@@ -1,4 +1,4 @@
-package custx.utilities.api.pojo;
+package PramothVM.utilities.api.pojo;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;

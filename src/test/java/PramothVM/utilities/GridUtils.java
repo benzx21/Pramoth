@@ -1,17 +1,20 @@
-package custx.utilities;
+package PramothVM.utilities;
 
+import PramothVM.constants.Utility;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.AriaRole;
-import custx.constants.Utility;
+
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-import static custx.constants.Utility.LOAD_TIME_ELEMENT;
-import static custx.utilities.PageUtils.sleep;
+import static PramothVM.constants.Utility.LOAD_TIME_ELEMENT;
+import static PramothVM.utilities.PageUtils.sleep;
+
+
 
 @Slf4j
 public class GridUtils {

@@ -1,4 +1,4 @@
-package custx.runner;
+package PramothVM.runner;
 
 import org.junit.platform.suite.api.ConfigurationParameter;
 import org.junit.platform.suite.api.IncludeEngines;
@@ -24,7 +24,7 @@ import org.junit.platform.suite.api.Suite;
 @Suite
 @IncludeEngines("cucumber")
 @SelectClasspathResource("features")
-@ConfigurationParameter(key = "cucumber.glue", value = "custx.steps")
+@ConfigurationParameter(key = "cucumber.glue", value = "PramothVM.steps")
 @ConfigurationParameter(key = "cucumber.plugin", value = "pretty, json:target/cucumber-report/cucumber.json, html:target/cucumber-report.html, rerun:target/rerun.txt, io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm")
 @ConfigurationParameter(key = "cucumber.filter.tags", value = "@Regression")
 public class TestRunner {

@@ -1,7 +1,8 @@
-package custx.steps;
+package PramothVM.steps;
 
+import PramothVM.utilities.driver.PlaywrightDriver;
 import com.microsoft.playwright.Page;
-import custx.utilities.driver.PlaywrightDriver;
+
 import io.cucumber.java.en.Then;
 
 public class WaitStep {

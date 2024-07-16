@@ -1,4 +1,4 @@
-package custx.utilities;
+package PramothVM.utilities;
 
 import com.github.javafaker.Faker;
 

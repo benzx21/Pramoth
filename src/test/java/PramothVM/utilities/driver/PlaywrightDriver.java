@@ -1,14 +1,16 @@
-package custx.utilities.driver;
+package PramothVM.utilities.driver;
 
+import PramothVM.utilities.ConfigReader;
 import com.microsoft.playwright.*;
-import custx.utilities.ConfigReader;
+
 import lombok.extern.slf4j.Slf4j;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 
-import static custx.utilities.ConfigReader.readPropertyInt;
+import static PramothVM.utilities.ConfigReader.readPropertyInt;
+
 
 @Slf4j
 public class PlaywrightDriver {

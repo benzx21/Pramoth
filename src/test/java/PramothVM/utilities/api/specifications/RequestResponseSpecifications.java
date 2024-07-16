@@ -1,13 +1,12 @@
-package custx.utilities.api.specifications;
+package PramothVM.utilities.api.specifications;
 
 import com.github.javafaker.Faker;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 import org.hamcrest.Matchers;
-
-import static custx.utilities.ConfigReader.readProperty;
-import static custx.utilities.ConfigReader.readPropertyInt;
+import static PramothVM.utilities.ConfigReader.readProperty;
+import static PramothVM.utilities.ConfigReader.readPropertyInt;
 import static io.restassured.RestAssured.expect;
 import static io.restassured.RestAssured.given;
 

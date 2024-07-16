@@ -1,7 +1,8 @@
-package custx.utilities;
+package PramothVM.utilities;
 
+import PramothVM.utilities.driver.PlaywrightDriver;
 import com.microsoft.playwright.Page;
-import custx.utilities.driver.PlaywrightDriver;
+
 import io.qameta.allure.Allure;
 import io.qameta.allure.AllureLifecycle;
 import lombok.SneakyThrows;
@@ -9,7 +10,8 @@ import lombok.extern.slf4j.Slf4j;
 
 import java.io.ByteArrayInputStream;
 
-import static custx.constants.Utility.LOAD_TIME_LOADING;
+import static PramothVM.constants.Utility.LOAD_TIME_LOADING;
+
 
 /**
  * Wrapper for reporting base functionality
